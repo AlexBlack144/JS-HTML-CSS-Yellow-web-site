@@ -1,0 +1,63 @@
+@import 'variables' 
+
+.inner-container
+    display: flex
+    align-items: stretch
+    justify-content: space-evenly
+    flex-flow: row wrap
+
+.item-arow:hover
+    .arrow
+        animation: my-anim 0.5s both
+    .humburger
+        display: inline
+
+.number-head
+    margin-top: 10px
+    font-family: $font-arial
+    font-size: $font-size-number
+
+.arrow
+    width: $font-size
+    transform: rotate(-90deg)
+
+.humburger
+    display: none
+    font-size: $font-size-number
+    font-family: $font-arial
+
+.item-call
+    margin-top: 10px
+    font-size: $font-size
+    width: 100px
+    color: $color-hover
+    font-family: $font-arial
+    border-right-style: solid
+    border-color: $color-border
+    border-width: 2px
+
+.item-call:hover
+    color: black
+       
+.item-table
+    margin-top: 10px
+    color: $color-border
+    font-size: $font-size
+    font-family: $font-arial
+    margin-right: 250px
+
+.container-icons
+    display: flex
+    align-items: center
+    flex-flow: row wrap
+
+.item-icons
+    margin: 10px
+    padding: 5px
+
+.item-icons:hover
+    background-color: $color-hover 
+    border-radius: 25px
+
+span:hover
+    color: $color-hover

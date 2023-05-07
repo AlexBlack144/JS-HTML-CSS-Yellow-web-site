@@ -1,0 +1,102 @@
+@import 'variables' 
+.inner-container
+    display: flex
+    align-items: stretch
+    justify-content: space-evenly
+    flex-flow: row wrap
+
+.container-icons
+    display: flex
+    align-items: center
+    flex-flow: row wrap
+
+.container-menu
+    display: flex
+    align-items: stretch
+    justify-content: space-evenly 
+    flex-flow: row wrap
+    background-color: $color-border-menu
+    border-radius: 15px
+
+.container-menu > .item-menu
+  margin: 10px
+  padding: 10px
+  font-size: $font-size
+  font-family: $font-arial
+
+.item-menu:hover
+    border-bottom-style: solid
+    border-block-color: $color-hover
+
+
+.item-icons
+  margin: 10px
+  padding: 5px
+ 
+
+.item-icons:hover
+    background-color: $color-hover 
+    border-radius: 25px
+     
+
+.humburger
+    display: none
+    font-size: $font-size-number
+    font-family: $font-arial
+
+.arrow
+    width: $font-size
+    transform: rotate(-90deg)
+
+.number-head
+    margin-top: 10px
+    font-family: $font-arial
+    font-size: $font-size-number
+
+span:hover
+    color: $color-hover
+
+.item-arow:hover
+    .arrow
+        animation: my-anim 0.5s both
+    .humburger
+        display: inline
+
+.item-call
+    margin-top: 10px
+    font-size: $font-size
+    width: 100px
+    color: $color-hover
+    font-family: $font-arial
+    border-right-style: solid
+    border-color: $color-border
+    border-width: 2px
+    
+
+.item-call:hover
+    color: black
+    
+.item-table
+    margin-top: 10px
+    color: $color-border
+    font-size: $font-size
+    font-family: $font-arial
+    margin-right: 250px
+
+.baner
+    position: relative
+    animation: floatBubble 30s infinite 
+    img
+        height: 460px
+
+.item-tovarov:hover
+    border-width: 3px
+    .img-iphone-tovar2
+        display: inline
+   
+          
+    
+ 
+
+    
+    
